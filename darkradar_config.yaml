@@ -1,0 +1,22 @@
+email_patterns:
+- '[a-zA-Z0-9._%+-]+@tni\.mil\.id'
+- '[a-zA-Z0-9._%+-]+@polri\.go\.id'
+id_patterns:
+- \b\d{16}\b
+- NRP\s*[:\-]?\s*\d{8,12}
+keywords:
+  military:
+  - tni
+  - polri
+  - tentara
+  operations:
+  - operasi
+  - latihan
+  - misi
+  sensitive:
+  - rahasia
+  - classified
+  - confidential
+phone_patterns:
+- \b08\d{8,11}\b
+- \+62\s?8\d{8,11}
