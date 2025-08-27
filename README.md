@@ -2,7 +2,7 @@
 
 
 # dark-radar-tni
-Dark Radar TNI adalah sebuah tool untuk memproses dan menampilkan data radar dari berbagai sumber feed.
+Dark Radar TNI adalah sebuah tool untuk memproses dan menampilkan data radar dari berbagai sumber feed yang mengalami kebocoran.
 Project ini dibuat menggunakan Python dan dapat dijalankan baik di Windows maupun Linux.
 
 ✨ Fitur
@@ -14,6 +14,21 @@ Project ini dibuat menggunakan Python dan dapat dijalankan baik di Windows maupu
 ⚙️ Dapat dijalankan via script Python atau batch file
 
 💻 Cross-platform (Windows & Linux)
+
+⌚ Realtime crawler untuk domain/subdomain TNI.
+
+🔎 Deteksi data sensitif (NIK, email, IP, credit card, password/token, telepon, NRP, koordinat).
+
+💯 Skor risiko gabungan (keyword rules + sensitive patterns).
+
+📜 Output rapi, bertingkat, mudah dianalisis.
+
+🛠️ Perbaikan bug response yang tidak didefinisikan.
+
+🎆 Penanganan error & timeout yang aman.
+
+🕹️ Opsi interval realtime via --interval.
+
 
 📦 Persyaratan
 
@@ -27,7 +42,8 @@ Virtual environment (disarankan)
 1. Clone Repository
 git clone https://github.com/yogaGymn/dark-radar-tni.git
 cd dark-radar-tni
-2. Buat Virtual Environment
+
+3. Buat Virtual Environment
 Linux / MacOS :
 python3 -m venv .venv
 source .venv/bin/activate
@@ -35,6 +51,7 @@ source .venv/bin/activate
 Windows (PowerShell)
 python -m venv .venv
 .venv\Scripts\Activate
+
 3. Install Dependencies
 pip install -r requirements.txt
 
@@ -47,5 +64,8 @@ Windows (CMD / PowerShell) :
 python darkradar.py
 Atau dengan file batch:
 darkradar_run.bat
+
+🚀 Cara Menjalankan Otomatis semua
+python darkradar.py realtime --interval 120 
 
  
