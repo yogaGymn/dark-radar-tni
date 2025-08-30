@@ -1,71 +1,66 @@
 <img width="874" height="184" alt="ascii-art-text" src="https://github.com/user-attachments/assets/4433b520-a904-4fa4-bc0d-96cbb66c791b" />
 
 
-# dark-radar-tni
-Dark Radar TNI adalah sebuah tool untuk memproses dan menampilkan data radar dari berbagai sumber feed yang mengalami kebocoran.
-Project ini dibuat menggunakan Python dan dapat dijalankan baik di Windows maupun Linux.
-
-✨ Fitur
-
-🚀 Mendukung konfigurasi melalui file YAML
-
-📡 Membaca data dari feed.json
-
-⚙️ Dapat dijalankan via script Python atau batch file
-
-💻 Cross-platform (Windows & Linux)
-
-⌚ Realtime crawler untuk domain/subdomain TNI.
-
-🔎 Deteksi data sensitif (NIK, email, IP, credit card, password/token, telepon, NRP, koordinat).
-
-💯 Skor risiko gabungan (keyword rules + sensitive patterns).
-
-📜 Output rapi, bertingkat, mudah dianalisis.
-
-🛠️ Perbaikan bug response yang tidak didefinisikan.
-
-🎆 Penanganan error & timeout yang aman.
-
-🕹️ Opsi interval realtime via --interval.
 
 
-📦 Persyaratan
+DarkRadar adalah **OSINT & Darkweb Search Tool** untuk mengumpulkan informasi dari internet (GitHub) dan darkweb (via Tor).  
+Tools ini membantu melakukan **deteksi dini potensi kebocoran data** — termasuk kemungkinan **kebocoran data pemerintah, militer, atau infrastruktur kritis** yang sering diperjualbelikan di forum gelap.  
 
-Python 3.8 atau lebih baru
+---
 
-Git (opsional, untuk clone repo)
+## ✨ Fitur
+- Menampilkan banner ASCII keren saat dijalankan.
+- Scanning otomatis dengan **default keywords** atau **custom keywords dari file `data.txt`**.
+- Internet search (GitHub API) untuk mencari potensi kebocoran kode/data publik.
+- Darkweb search (Ahmia) untuk menelusuri forum gelap (hanya jika Tor aktif).
+- Menampilkan hasil di terminal dengan format rapi.
+- Menyimpan hasil ke file JSON dengan nama unik (`auto_results_YYYYMMDD_HHMMSS.json`).
+- Mode manual via perintah CLI (internet / darkweb).
 
-Virtual environment (disarankan)
+---
 
-⚙️ Instalasi
-1. Clone Repository
-git clone https://github.com/yogaGymn/dark-radar-tni.git
-cd dark-radar-tni
+## 📦 Instalasi
+1. Clone repo ini
+  
+   git clone https://github.com/username/darkradar.git
+   cd darkradar
 
-3. Buat Virtual Environment
-Linux / MacOS :
-python3 -m venv .venv
-source .venv/bin/activate
+2. Install dependency
 
-Windows (PowerShell)
-python -m venv .venv
-.venv\Scripts\Activate
+   pip install -r requirements.txt
+   Atau manual:
+   pip install requests click
 
-3. Install Dependencies
-pip install -r requirements.txt
+3. Pastikan Tor service berjalan di 127.0.0.1:9050
 
-🚀 Cara Menjalankan
+   sudo service tor start
 
-Linux / MacOS :
-python3 darkradar.py
 
-Windows (CMD / PowerShell) :
-python darkradar.py
-Atau dengan file batch:
-darkradar_run.bat
+🚀 Cara Penggunaan
 
-🚀 Cara Menjalankan Otomatis semua
-python darkradar.py realtime --interval 120 
+1. Mode Otomatis
+
+   python3 darkradar.py
+
+2. Mode Manual CLI
+
+   🔍 Internet Search
+   python3 darkradar.py search --mode internet --keywords "indonesia,leak,password"
+
+   🕵️ Darkweb Search
+   python3 darkradar.py search --mode darkweb --keywords "indonesia,leak"
+
+   ✅ Check Tor
+   python3 darkradar.py check-tor
+
+⚠️ Disclaimer
+
+Tool ini dibuat untuk tujuan pembelajaran, riset keamanan, dan deteksi dini ancaman.
+Segala penyalahgunaan (termasuk eksploitasi kebocoran data) menjadi tanggung jawab pengguna.
+
+👨‍💻 Author: @YogaGymn
+
+
+
 
  
