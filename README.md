@@ -9,7 +9,6 @@ Tools ini membantu melakukan **deteksi dini potensi kebocoran data** — termasu
 ---
 
 ## ✨ Fitur
-- Menampilkan banner ASCII keren saat dijalankan.
 - Scanning otomatis dengan **default keywords** atau **custom keywords dari file `data.txt`**.
 - Internet search (GitHub API) untuk mencari potensi kebocoran kode/data publik.
 - Darkweb search (Ahmia) untuk menelusuri forum gelap (hanya jika Tor aktif).
