@@ -3,18 +3,19 @@
 
 
 
-DarkRadar adalah **OSINT & Darkweb Search Tool** untuk mengumpulkan informasi dari internet (GitHub) dan darkweb (via Tor).  
+DarkRadar adalah **OSINT & Darkweb Search Tool** untuk mengumpulkan informasi dari internet dan darkweb (via Tor).  
 Tools ini membantu melakukan **deteksi dini potensi kebocoran data** — termasuk kemungkinan **kebocoran data pemerintah, militer, atau infrastruktur kritis** yang sering diperjualbelikan di forum gelap.  
 
 ---
 
 ## ✨ Fitur
-- Scanning otomatis dengan **default keywords** atau **custom keywords dari file `data.txt`**.
-- Internet search (GitHub API) untuk mencari potensi kebocoran kode/data publik.
+- Scanning otomatis dengan **default keywords** atau **custom keywords dari file txt**.
+- Internet search untuk mencari potensi kebocoran kode/data publik.
 - Darkweb search (Ahmia) untuk menelusuri forum gelap (hanya jika Tor aktif).
-- Menampilkan hasil di terminal dengan format rapi.
+- Menampilkan hasil realtime.
 - Menyimpan hasil ke file JSON dengan nama unik (`auto_results_YYYYMMDD_HHMMSS.json`).
 - Mode manual via perintah CLI (internet / darkweb).
+- Osint Sosial Media
 
 ---
 
