@@ -1,0 +1,507 @@
+password
+username
+credential
+secret
+confidential
+classified
+military
+army
+intel
+laporan
+rahasia
+dokumen
+kontrak
+email
+database
+db_backup
+vpn
+ssh
+key
+token
+config
+leak
+exposed
+account
+recruitment
+gaji
+pegawai
+struktur
+strategi
+latihan
+operasi
+jadwal
+surat
+arsip
+login
+register
+signon
+signin
+userpass
+otp
+2fa
+auth
+administrator
+superadmin
+controlpanel
+panel
+dashboard
+inbox
+outbox
+pesan
+suratmenyurat
+tugas
+arsitektur
+blueprint
+plan
+taktik
+rencana
+mission
+intelijen
+sandi
+kode
+cipher
+crypto
+dekripsi
+enkripsi
+peta
+map
+koordinat
+gps
+satellite
+drone
+senjata
+armory
+persenjataan
+radar
+komando
+markas
+batalyon
+divisi
+brigade
+kompi
+regu
+pos
+posko
+data_personel
+data_pns
+biodata
+nip
+nrp
+ktp
+kk
+sk
+skd
+skck
+akta
+ijazah
+sertifikat
+rekam_medis
+bpjs
+NIK
+No. KTP
+tanggal lahir
+tempat lahir
+nama ibu kandung
+alamat
+data pribadi
+kredensial
+NPWP
+SIM
+Paspor
+kartu keluarga
+NRP
+data anggota
+unit militer
+kode kesatuan
+posisi taktis
+Kartu Kredit
+Nomor Rekening Bank
+Nomor kartu debit
+CVV
+CVC
+Nomor BPJS Kesehatan
+Nomor rekam medis
+Diagnosis medis
+Resep obat
+API Key
+Token
+Sertifikat SSL
+file .pem
+SSH key
+Token otentikasi
+PIN
+Kode akses
+Nomor telepon
+Nomor HP
+IMEI
+ICCID
+PUK
+Nomor seri SIM
+Alamat email
+Username sosial media
+Akun Facebook
+Akun Instagram
+Akun Twitter
+Akun Telegram
+Akun WhatsApp
+Akun TikTok
+Akun LinkedIn
+Akun YouTube
+Channel pribadi
+Grup rahasia
+Nomor darurat
+Kode verifikasi
+One Time Password
+Kode aktivasi
+Recovery key
+Reset password
+Kode registrasi
+User ID
+ID pelanggan
+ID pengguna
+ID unik
+Nomor peserta
+Nomor registrasi
+Nomor tiket
+Nomor polis
+Nomor asuransi
+Nomor keanggotaan
+Nomor peserta BPJS
+Nomor KIS
+Nomor kartu sehat
+Nomor kartu vaksin
+Data vaksin
+Data riwayat imunisasi
+Data riwayat penyakit
+Riwayat medis
+Hasil lab
+Catatan rawat inap
+Catatan operasi
+Catatan kehamilan
+Data konsultasi
+Resep digital
+Hasil diagnosa
+Data pasien
+ID pasien
+Kartu pasien
+Data rumah sakit
+Kartu rawat jalan
+Kartu kontrol
+Surat rujukan
+Surat sakit
+Surat sehat
+Surat vaksin
+Data klinik
+Data laboratorium
+Laporan medis
+Basis data pasien
+Backup medis
+Scan KTP
+Scan KK
+Scan SIM
+Scan Paspor
+Scan NPWP
+Scan ijazah
+Scan akta
+Scan sertifikat
+File identitas
+Data biometrik
+Sidik jari
+Retina scan
+Face ID
+Voice recognition
+DNA
+Genetik
+Golongan darah
+Data donor
+Nomor kartu donor
+Nomor kartu bank
+Nomor kartu kredit
+Nomor kartu debit
+Nomor kartu prabayar
+Nomor kartu e-money
+Saldo e-wallet
+Akun GoPay
+Akun OVO
+Akun Dana
+Akun LinkAja
+Akun ShopeePay
+Akun PayPal
+Nomor virtual account
+Nomor transfer
+Nomor giro
+Nomor cek
+Nomor swift
+Nomor IBAN
+Nomor routing
+Kode bank
+Kode branch
+Kode clearing
+Kode BIC
+Kode transaksi
+Kode pembayaran
+Kode tagihan
+Nomor invoice
+Nomor faktur
+Nomor pajak
+Nomor billing
+Nomor transaksi
+Nomor order
+Nomor pesanan
+Nomor shipment
+Nomor resi
+Nomor tracking
+Nomor pengiriman
+Nomor kurir
+Nomor ekspedisi
+Nomor logistic
+Kode paket
+Kode barang
+Kode SKU
+Kode produk
+Nomor seri produk
+Nomor IMEI device
+Nomor MAC address
+Alamat IP
+Alamat IPv6
+Subnet
+Gateway
+DNS
+DHCP
+Proxy
+Firewall
+Port terbuka
+Service aktif
+Log server
+Log aplikasi
+Log sistem
+Syslog
+Debug log
+Error log
+Access log
+Crash dump
+Memory dump
+File backup
+File cadangan
+Database dump
+Config file
+Environment file
+.env
+.htaccess
+docker-compose
+kubernetes config
+cloud key
+AWS key
+Azure secret
+GCP secret
+Heroku key
+DigitalOcean token
+API credential
+OAuth token
+JWT
+Refresh token
+Access token
+Authorization header
+Bearer token
+Basic auth
+Digest auth
+Root password
+Root access
+Admin password
+Admin panel
+Admin dashboard
+CMS admin
+WordPress login
+Joomla admin
+Drupal admin
+Magento admin
+Laravel env
+PHPMyAdmin
+cPanel
+WHM
+DirectAdmin
+Plesk
+Hosting panel
+DNS zone file
+Registrar account
+Domain key
+SSL private key
+TLS cert
+CSR
+Chain cert
+Intermediate cert
+Root cert
+VPN config
+OpenVPN key
+WireGuard key
+IPSec key
+IKEv2 config
+L2TP secret
+PPTP secret
+SSH config
+SSH private key
+SSH public key
+RDP credential
+Windows login
+Linux root
+MacOS keychain
+iCloud account
+Google account
+Microsoft account
+Apple ID
+Samsung ID
+Huawei ID
+Mi account
+Steam account
+Epic Games account
+Riot account
+Battle.net account
+PlayStation account
+Xbox account
+Nintendo account
+Spotify account
+Netflix account
+DisneyPlus account
+HBO account
+Prime Video account
+Cloud storage
+Google Drive
+Dropbox
+OneDrive
+iCloud Drive
+Mega account
+MediaFire
+Box account
+Nextcloud
+Owncloud
+GitHub account
+GitLab account
+Bitbucket account
+Source code
+Repository
+Commit log
+API documentation
+Developer key
+SDK key
+Mobile app secret
+Firebase key
+FCM token
+Push notification key
+Analytics key
+Tracking ID
+Google Analytics
+Mixpanel token
+Segment key
+Amplitude key
+Hotjar ID
+Matomo ID
+Bug report
+Crash report
+Error trace
+Debug mode
+Testing credential
+Staging credential
+Production secret
+CI/CD token
+Jenkins key
+GitHub Actions secret
+GitLab CI token
+Travis token
+CircleCI token
+Bitrise key
+Deploy key
+Docker hub key
+Kubernetes secret
+Helm values
+Terraform secret
+Ansible vault
+Chef secret
+Puppet key
+Saltstack key
+Monitoring key
+Prometheus token
+Grafana key
+Zabbix credential
+Nagios key
+ELK stack config
+Splunk key
+SIEM log
+Security alert
+IDS log
+IPS log
+Firewall rule
+ACL
+Whitelist
+Blacklist
+Suspicious IP
+Malicious domain
+Threat intel
+Exploit code
+Payload
+Shellcode
+Webshell
+Backdoor
+Ransomware
+Trojan
+Worm
+Spyware
+Keylogger
+Phishing kit
+Malware sample
+Botnet
+Command and Control
+C2 server
+Exploit DB
+Zero day
+PoC exploit
+Metasploit
+Nmap scan
+Nikto scan
+Sn1per result
+Vulnerability scan
+Penetration test
+Bug bounty
+Security report
+Pentest report
+Risk assessment
+CVSS score
+CVE ID
+Exploit ID
+Security patch
+Update log
+Change log
+Release note
+License key
+Product key
+Activation key
+Serial key
+Registration key
+Software crack
+Keygen
+Patch file
+Loader
+Bypass
+Hacktool
+Exploit kit
+Dark web
+Onion link
+Tor hidden
+I2P link
+Freenet data
+Pastebin leak
+Anonfiles
+Zippyshare dump
+File sharing
+Torrent file
+Magnet link
+Tracker info
+Peer list
+Seeder info
+Leaked data
+Compromised data
+Dump file
+Credential dump
+Database leak
+Private data
+Sensitive info
+Confidential file
