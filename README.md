@@ -58,7 +58,7 @@ Tools ini membantu melakukan **deteksi dini potensi kebocoran data** — termasu
 Tool ini dibuat untuk tujuan pembelajaran, riset keamanan, dan deteksi dini ancaman.
 Segala penyalahgunaan (termasuk eksploitasi kebocoran data) menjadi tanggung jawab pengguna.
 
-👨‍💻 Author: @YogaGymn
+👨‍💻 Author: @YogaGymn @Bear Cyber Hunt
 
 
 
